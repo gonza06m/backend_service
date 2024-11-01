@@ -83,7 +83,7 @@ export const updateproduct = async (req: Request, res: Response) => {
         res.status(500) .json({
             message: "error al actualizar el producto"
         })
-    
+    }
 };
 
 // eliminar un producto
